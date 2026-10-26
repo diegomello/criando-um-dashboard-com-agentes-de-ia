@@ -3,7 +3,7 @@ Porsche · Dashboard de Vendas
 
 Dashboard interativo, em um único arquivo HTML, que analisa uma base de 76 vendas de veículos Porsche nos Estados Unidos. O projeto parte de três perguntas de negócio e organiza os gráficos e os filtros para respondê-las.
 
-O dashboard foi feito a partir da base de dados sanitizada do excel no Claude.
+O dashboard foi feito a partir da base de dados sanitizada do excel no Claude, feito um tratamento no arquivo xlxs para deixar a base mais assertiva e com os dados em igual, não foi feito tratamento adicional para melhorar a qualidade de alguns dados que estavam acusando como INVALIDO.
 
 Perguntas de negócio
 #	Pergunta	O que ajuda a decidir
