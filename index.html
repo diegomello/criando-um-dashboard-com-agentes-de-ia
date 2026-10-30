@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Dashboard de dados interativo - Porshe</title>
+<title>Dashboard de dados Interativo - Porshe</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 :root{color-scheme:dark;--bg:#0f1012;--card:#1a1b1e;--line:#2b2d31;--tx:#ececec;--mut:#9a9da3;--red:#d5001c;--gold:#c9a24b;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -22,17 +22,17 @@ select{background:var(--card);color:var(--tx);border:1px solid var(--line);borde
 </style></head><body><div class="w">
 <h1><span>PORSCHE</span> · Vendas</h1><p class="sub" id="sub"></p>
 <div class="f">
-<label>Ano do veículo<select id="fy"></select></label>
+<label>Ano do Veículo<select id="fy"></select></label>
 <label>Estado<select id="fs"></select></label>
-<label>Pagamento<select id="fp"></select></label>
-<label class="chk"><input type="checkbox" id="fc" checked> Excluir cancelados</label></div>
-<div class="g k"><div class="c"><small>Faturamento total</small><b id="k1"></b></div>
-<div class="c"><small>Ticket médio</small><b id="k2"></b></div>
-<div class="c"><small>Unidades vendidas</small><b id="k3"></b></div></div>
+<label>Tipo de Pagamento<select id="fp"></select></label>
+<label class="chk"><input type="checkbox" id="fc" checked> Excluir Cancelados</label></div>
+<div class="g k"><div class="c"><small>Faturamento Total</small><b id="k1"></b></div>
+<div class="c"><small>Ticket Médio</small><b id="k2"></b></div>
+<div class="c"><small>Unidades Vendidas</small><b id="k3"></b></div></div>
 <h3 class="sec">1 · Concentração geográfica e Potencial de Mercado<small>Quais Estados e cidades lideram o faturamento e onde estão as vendas de maior valor unitário?</small></h3>
 <div class="g ch">
-<div class="c"><h2>Faturamento por estado (top 10)</h2><div class="box"><canvas id="c1"></canvas></div></div>
-<div class="c"><h2>Faturamento por cidade (top 10)</h2><div class="box"><canvas id="c4"></canvas></div></div>
+<div class="c"><h2>Faturamento por Estado (top 10)</h2><div class="box"><canvas id="c1"></canvas></div></div>
+<div class="c"><h2>Faturamento por Cidade (top 10)</h2><div class="box"><canvas id="c4"></canvas></div></div>
 <div class="c wide"><h2>Valor unitário médio por Estado (mín. 2 vendas)</h2><div class="box"><canvas id="c5"></canvas></div></div></div>
 <div class="ins" id="i1"></div>
 <h3 class="sec">2 · Mix de produtos<small>Qual a participação de cada modelo no faturamento versus a quantidade de unidades vendidas?</small></h3>
